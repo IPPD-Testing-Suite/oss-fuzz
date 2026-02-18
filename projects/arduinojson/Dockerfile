@@ -16,6 +16,6 @@
 
 FROM gcr.io/oss-fuzz-base/base-builder
 RUN apt-get update && apt-get install -y make zip git
-RUN git clone --depth 1 https://github.com/IPPD-Testing-Suite/ArduinoJson.git arduinojson
+RUN git clone --depth 1 https://github.com/IPPD-Testing-Suite/ArduinoJson arduinojson
 WORKDIR arduinojson
 COPY run_tests.sh build.sh $SRC/
