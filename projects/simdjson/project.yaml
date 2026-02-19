@@ -1,4 +1,4 @@
-homepage: "https://simdjson.org/"
+homepage: "https://github.com/IPPD-Testing-Suite/simdjson"
 language: c++
 primary_contact: "pauldreikossfuzz@gmail.com"
 auto_ccs:
@@ -6,7 +6,7 @@ auto_ccs:
 sanitizers:
 - address
 - undefined
-main_repo: 'https://github.com/simdjson/simdjson.git'
+main_repo: 'https://github.com/IPPD-Testing-Suite/simdjson.git'
 
 fuzzing_engines:
   - afl
