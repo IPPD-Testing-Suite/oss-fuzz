@@ -1,8 +1,8 @@
-homepage: "https://github.com/google/bloaty"
+homepage: "https://github.com/IPPD-Testing-Suite/bloaty"
 language: c++
 primary_contact: "jhaberman@gmail.com"
 architectures:
   - x86_64
   - i386
-main_repo: 'https://github.com/google/bloaty.git'
+main_repo: 'https://github.com/IPPD-Testing-Suite/bloaty.git'
 file_github_issue: True
