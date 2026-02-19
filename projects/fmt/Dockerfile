@@ -20,7 +20,7 @@ RUN echo "CXXFLAGS=$CXXFLAGS"
 RUN apt-get update && apt-get install -y cmake ninja-build
 
 RUN git clone --depth 1 --branch master \
-  https://github.com/fmtlib/fmt.git
+  https://github.com/IPPD-Testing-Suite/fmt.git
 
 WORKDIR fmt
 COPY run_tests.sh build.sh $SRC/
