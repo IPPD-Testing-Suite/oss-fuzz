@@ -1,4 +1,4 @@
-homepage: "http://www.wavpack.com" 
+homepage: "https://github.com/IPPD-Testing-Suite/WavPack" 
 language: c++
 primary_contact: "david@wavpack.com" 
 auto_ccs:
@@ -8,7 +8,7 @@ sanitizers:
 - address 
 - memory
 - undefined
-main_repo: 'https://github.com/dbry/WavPack.git'
+main_repo: https://github.com/IPPD-Testing-Suite/WavPack.git'
 
 fuzzing_engines:
   - afl
