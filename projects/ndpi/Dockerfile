@@ -16,7 +16,7 @@
 
 FROM gcr.io/oss-fuzz-base/base-builder
 RUN apt-get update && apt-get install -y make autoconf automake autogen pkg-config libtool flex bison cmake libnuma-dev libpcre2-dev libjson-c-dev
-RUN git clone --depth 1 https://github.com/ntop/nDPI.git ndpi
+RUN git clone --depth 1 --branch dev https://github.com/IPPD-Testing-Suite/nDPI.git ndpi
 ADD https://www.tcpdump.org/release/libpcap-1.9.1.tar.gz libpcap-1.9.1.tar.gz
 ADD https://github.com/json-c/json-c/archive/refs/tags/json-c-0.17-20230812.tar.gz json-c-0.17-20230812.tar.gz
 RUN tar -xvzf json-c-0.17-20230812.tar.gz
