@@ -8,7 +8,7 @@ sanitizers:
 - address 
 - memory
 - undefined
-main_repo: https://github.com/IPPD-Testing-Suite/WavPack.git'
+main_repo: 'https://github.com/IPPD-Testing-Suite/WavPack.git'
 
 fuzzing_engines:
   - afl
