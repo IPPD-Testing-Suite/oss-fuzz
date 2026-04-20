@@ -7,7 +7,7 @@ auto_ccs:
 sanitizers:
   - address
   - undefined
-main_repo: 'https://github.com/lsh123/xmlsec'
+main_repo: 'https://github.com/IPPD-Testing-Suite/xmlsec.git'
 
 fuzzing_engines:
   - afl
